@@ -14,7 +14,7 @@ spec:
         app: example-app
     spec:
       containers:
-        - image: swashbuck1r/gitops-example-webapp:v1
+        - image: swashbuck1r/gitops-example-webapp:v3
           name: example-app
           ports:
             - containerPort: 3000
